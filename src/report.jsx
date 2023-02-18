@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Table from "react-bootstrap/Table";
+import {Table,Image}  from "react-bootstrap";
 import axios from "axios";
 import Common from "./common";
 const BASE_URL = Common.API_URL;
@@ -65,6 +65,8 @@ export default class report extends Component {
           <Container>
             <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
             <div style={{ fontSize: "16px" , color: "#ffffff"}}>
+              <Image src="https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg"
+              roundedCircle thumbnail style={{width: "70px", height: "70px"}}/>
               {" Student 65230099 Supakorn K. "}
             </div>
           </Container>
